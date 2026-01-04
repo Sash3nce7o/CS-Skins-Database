@@ -1,0 +1,15 @@
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Infrastructure\bin\Debug\net9.0\Skins.Infrastructure.deps.json
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Infrastructure\bin\Debug\net9.0\Skins.Infrastructure.runtimeconfig.json
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Infrastructure\bin\Debug\net9.0\Skins.Infrastructure.dll
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Infrastructure\bin\Debug\net9.0\Skins.Infrastructure.pdb
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Infrastructure\obj\Debug\net9.0\Skins.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Infrastructure\obj\Debug\net9.0\Skins.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Infrastructure\obj\Debug\net9.0\Skins.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Infrastructure\obj\Debug\net9.0\Skins.Infrastructure.AssemblyInfo.cs
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Infrastructure\obj\Debug\net9.0\Skins.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Infrastructure\obj\Debug\net9.0\Skins.Infrastructure.sourcelink.json
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Infrastructure\obj\Debug\net9.0\Skins.Infrastructure.dll
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Infrastructure\obj\Debug\net9.0\refint\Skins.Infrastructure.dll
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Infrastructure\obj\Debug\net9.0\Skins.Infrastructure.pdb
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Infrastructure\obj\Debug\net9.0\Skins.Infrastructure.genruntimeconfig.cache
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Infrastructure\obj\Debug\net9.0\ref\Skins.Infrastructure.dll

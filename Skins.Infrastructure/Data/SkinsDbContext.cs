@@ -1,0 +1,41 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Skins.Infrastructure.Data.Models;
+
+namespace Skins.Infrastructure.Data;
+
+public class SkinsDbContext : DbContext
+{
+    private const string ConnectionString = "Server=100.121.15.19, 1433;Database=CS-Skins;User Id=sa;Password=VerySecure0!;TrustServerCertificate=True;Encrypt=True";
+
+    public DbSet<Skin> Skins { get; set; } = null!;
+    public DbSet<User> Users { get; set; } = null!;
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        base.OnConfiguring(optionsBuilder.UseSqlServer(ConnectionString));
+    }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+        
+        /*
+            Line	Meaning
+            HasOne(s => s.Owner)	"A Skin has one Owner" (navigation property)
+            WithMany(u => u.Skins)	"A User has many Skins" (inverse navigation)
+            HasForeignKey(s => s.OwnerId)	"The link column is OwnerId"
+            OnDelete(DeleteBehavior.Cascade)	"If user deleted → auto-delete their skins"
+            */
+        modelBuilder.Entity<Skin>()
+            .HasOne(s => s.Owner)
+            .WithMany(u => u.Skins)
+            .HasForeignKey(s => s.OwnerId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+
+            
+        modelBuilder.Entity<Skin>()
+            .Property(s => s.Quality)
+            .HasConversion<string>(); 
+    }
+}
