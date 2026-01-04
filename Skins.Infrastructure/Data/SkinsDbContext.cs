@@ -5,7 +5,7 @@ namespace Skins.Infrastructure.Data;
 
 public class SkinsDbContext : DbContext
 {
-    private const string ConnectionString = "Server=100.121.15.19, 1433;Database=CS-Skins;User Id=sa;Password=VerySecure0!;TrustServerCertificate=True;Encrypt=True";
+    private const string ConnectionString = "Server=, 1433;Database=CS-Skins;User Id=sa;Password=;TrustServerCertificate=True;Encrypt=True";
 
     public DbSet<Skin> Skins { get; set; } = null!;
     public DbSet<User> Users { get; set; } = null!;
