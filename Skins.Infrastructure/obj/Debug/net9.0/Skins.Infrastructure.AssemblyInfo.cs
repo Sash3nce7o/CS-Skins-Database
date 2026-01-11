@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Skins.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3148d5f8327f9d2cd67f977c72cfde3f7a2ebbf3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e967595c5db96f3fffd2c1e9eeb9eb53da5f3ece")]
 [assembly: System.Reflection.AssemblyProductAttribute("Skins.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Skins.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
