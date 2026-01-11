@@ -11,7 +11,7 @@ using Skins.Infrastructure.Data;
 namespace Skins.Infrastructure.Migrations
 {
     [DbContext(typeof(SkinsDbContext))]
-    [Migration("20260104145742_InitialCreate")]
+    [Migration("20260111144347_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -26,11 +26,8 @@ namespace Skins.Infrastructure.Migrations
 
             modelBuilder.Entity("Skins.Infrastructure.Data.Models.Skin", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<float>("Float")
                         .HasColumnType("real");
@@ -43,8 +40,9 @@ namespace Skins.Infrastructure.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
-                    b.Property<int>("OwnerId")
-                        .HasColumnType("int");
+                    b.Property<string>("OwnerId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Pattern")
                         .IsRequired()
@@ -64,11 +62,8 @@ namespace Skins.Infrastructure.Migrations
 
             modelBuilder.Entity("Skins.Infrastructure.Data.Models.User", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Email")
                         .IsRequired()

@@ -1,0 +1,276 @@
+Project 'Skins' has the following package references
+   [net9.0]: 
+   Top-level Package                               Requested   Resolved
+   > BCrypt.Net-Next                               4.0.3       4.0.3   
+   > Microsoft.EntityFrameworkCore                 9.0.11      9.0.11  
+   > Microsoft.EntityFrameworkCore.Design          9.0.11      9.0.11  
+   > Microsoft.EntityFrameworkCore.Relational      9.0.11      9.0.11  
+   > Microsoft.EntityFrameworkCore.SqlServer       9.0.11      9.0.11  
+   > xunit                                         2.9.3       2.9.3   
+
+   Transitive Package                                           Resolved
+   > Azure.Core                                                 1.38.0  
+   > Azure.Identity                                             1.11.4  
+   > Humanizer.Core                                             2.14.1  
+   > Microsoft.Bcl.AsyncInterfaces                              7.0.0   
+   > Microsoft.Build.Framework                                  17.8.3  
+   > Microsoft.Build.Locator                                    1.7.8   
+   > Microsoft.CodeAnalysis.Analyzers                           3.3.4   
+   > Microsoft.CodeAnalysis.Common                              4.8.0   
+   > Microsoft.CodeAnalysis.CSharp                              4.8.0   
+   > Microsoft.CodeAnalysis.CSharp.Workspaces                   4.8.0   
+   > Microsoft.CodeAnalysis.Workspaces.Common                   4.8.0   
+   > Microsoft.CodeAnalysis.Workspaces.MSBuild                  4.8.0   
+   > Microsoft.CSharp                                           4.5.0   
+   > Microsoft.Data.SqlClient                                   5.1.6   
+   > Microsoft.Data.SqlClient.SNI.runtime                       5.1.1   
+   > Microsoft.EntityFrameworkCore.Abstractions                 9.0.11  
+   > Microsoft.EntityFrameworkCore.Analyzers                    9.0.11  
+   > Microsoft.Extensions.Caching.Abstractions                  9.0.11  
+   > Microsoft.Extensions.Caching.Memory                        9.0.11  
+   > Microsoft.Extensions.Configuration.Abstractions            9.0.11  
+   > Microsoft.Extensions.DependencyInjection                   9.0.11  
+   > Microsoft.Extensions.DependencyInjection.Abstractions      9.0.11  
+   > Microsoft.Extensions.DependencyModel                       9.0.11  
+   > Microsoft.Extensions.Logging                               9.0.11  
+   > Microsoft.Extensions.Logging.Abstractions                  9.0.11  
+   > Microsoft.Extensions.Options                               9.0.11  
+   > Microsoft.Extensions.Primitives                            9.0.11  
+   > Microsoft.Identity.Client                                  4.61.3  
+   > Microsoft.Identity.Client.Extensions.Msal                  4.61.3  
+   > Microsoft.IdentityModel.Abstractions                       6.35.0  
+   > Microsoft.IdentityModel.JsonWebTokens                      6.35.0  
+   > Microsoft.IdentityModel.Logging                            6.35.0  
+   > Microsoft.IdentityModel.Protocols                          6.35.0  
+   > Microsoft.IdentityModel.Protocols.OpenIdConnect            6.35.0  
+   > Microsoft.IdentityModel.Tokens                             6.35.0  
+   > Microsoft.NETCore.Platforms                                1.1.0   
+   > Microsoft.NETCore.Targets                                  1.1.0   
+   > Microsoft.SqlServer.Server                                 1.0.0   
+   > Microsoft.Win32.SystemEvents                               6.0.0   
+   > Mono.TextTemplating                                        3.0.0   
+   > System.ClientModel                                         1.0.0   
+   > System.CodeDom                                             6.0.0   
+   > System.Collections.Immutable                               7.0.0   
+   > System.Composition                                         7.0.0   
+   > System.Composition.AttributedModel                         7.0.0   
+   > System.Composition.Convention                              7.0.0   
+   > System.Composition.Hosting                                 7.0.0   
+   > System.Composition.Runtime                                 7.0.0   
+   > System.Composition.TypedParts                              7.0.0   
+   > System.Configuration.ConfigurationManager                  6.0.1   
+   > System.Diagnostics.DiagnosticSource                        6.0.1   
+   > System.Drawing.Common                                      6.0.0   
+   > System.Formats.Asn1                                        9.0.11  
+   > System.IdentityModel.Tokens.Jwt                            6.35.0  
+   > System.IO.Pipelines                                        7.0.0   
+   > System.Memory                                              4.5.4   
+   > System.Memory.Data                                         1.0.2   
+   > System.Numerics.Vectors                                    4.5.0   
+   > System.Reflection.Metadata                                 7.0.0   
+   > System.Runtime                                             4.3.0   
+   > System.Runtime.Caching                                     6.0.0   
+   > System.Runtime.CompilerServices.Unsafe                     6.0.0   
+   > System.Security.AccessControl                              6.0.0   
+   > System.Security.Cryptography.Cng                           5.0.0   
+   > System.Security.Cryptography.ProtectedData                 6.0.0   
+   > System.Security.Permissions                                6.0.0   
+   > System.Security.Principal.Windows                          5.0.0   
+   > System.Text.Encoding                                       4.3.0   
+   > System.Text.Encoding.CodePages                             6.0.0   
+   > System.Text.Encodings.Web                                  6.0.0   
+   > System.Text.Json                                           9.0.11  
+   > System.Threading.Channels                                  7.0.0   
+   > System.Threading.Tasks.Extensions                          4.5.4   
+   > System.Windows.Extensions                                  6.0.0   
+   > xunit.abstractions                                         2.0.3   
+   > xunit.analyzers                                            1.18.0  
+   > xunit.assert                                               2.9.3   
+   > xunit.core                                                 2.9.3   
+   > xunit.extensibility.core                                   2.9.3   
+   > xunit.extensibility.execution                              2.9.3   
+
+Project 'Skins.Core' has the following package references
+   [net9.0]: 
+   Top-level Package                               Requested   Resolved
+   > BCrypt.Net-Next                               4.0.3       4.0.3   
+   > Microsoft.EntityFrameworkCore                 9.0.11      9.0.11  
+   > Microsoft.EntityFrameworkCore.Design          9.0.11      9.0.11  
+   > Microsoft.EntityFrameworkCore.Relational      9.0.11      9.0.11  
+   > Microsoft.EntityFrameworkCore.SqlServer       9.0.11      9.0.11  
+   > xunit                                         2.9.3       2.9.3   
+
+   Transitive Package                                           Resolved
+   > Azure.Core                                                 1.38.0  
+   > Azure.Identity                                             1.11.4  
+   > Humanizer.Core                                             2.14.1  
+   > Microsoft.Bcl.AsyncInterfaces                              7.0.0   
+   > Microsoft.Build.Framework                                  17.8.3  
+   > Microsoft.Build.Locator                                    1.7.8   
+   > Microsoft.CodeAnalysis.Analyzers                           3.3.4   
+   > Microsoft.CodeAnalysis.Common                              4.8.0   
+   > Microsoft.CodeAnalysis.CSharp                              4.8.0   
+   > Microsoft.CodeAnalysis.CSharp.Workspaces                   4.8.0   
+   > Microsoft.CodeAnalysis.Workspaces.Common                   4.8.0   
+   > Microsoft.CodeAnalysis.Workspaces.MSBuild                  4.8.0   
+   > Microsoft.CSharp                                           4.5.0   
+   > Microsoft.Data.SqlClient                                   5.1.6   
+   > Microsoft.Data.SqlClient.SNI.runtime                       5.1.1   
+   > Microsoft.EntityFrameworkCore.Abstractions                 9.0.11  
+   > Microsoft.EntityFrameworkCore.Analyzers                    9.0.11  
+   > Microsoft.Extensions.Caching.Abstractions                  9.0.11  
+   > Microsoft.Extensions.Caching.Memory                        9.0.11  
+   > Microsoft.Extensions.Configuration.Abstractions            9.0.11  
+   > Microsoft.Extensions.DependencyInjection                   9.0.11  
+   > Microsoft.Extensions.DependencyInjection.Abstractions      9.0.11  
+   > Microsoft.Extensions.DependencyModel                       9.0.11  
+   > Microsoft.Extensions.Logging                               9.0.11  
+   > Microsoft.Extensions.Logging.Abstractions                  9.0.11  
+   > Microsoft.Extensions.Options                               9.0.11  
+   > Microsoft.Extensions.Primitives                            9.0.11  
+   > Microsoft.Identity.Client                                  4.61.3  
+   > Microsoft.Identity.Client.Extensions.Msal                  4.61.3  
+   > Microsoft.IdentityModel.Abstractions                       6.35.0  
+   > Microsoft.IdentityModel.JsonWebTokens                      6.35.0  
+   > Microsoft.IdentityModel.Logging                            6.35.0  
+   > Microsoft.IdentityModel.Protocols                          6.35.0  
+   > Microsoft.IdentityModel.Protocols.OpenIdConnect            6.35.0  
+   > Microsoft.IdentityModel.Tokens                             6.35.0  
+   > Microsoft.NETCore.Platforms                                1.1.0   
+   > Microsoft.NETCore.Targets                                  1.1.0   
+   > Microsoft.SqlServer.Server                                 1.0.0   
+   > Microsoft.Win32.SystemEvents                               6.0.0   
+   > Mono.TextTemplating                                        3.0.0   
+   > System.ClientModel                                         1.0.0   
+   > System.CodeDom                                             6.0.0   
+   > System.Collections.Immutable                               7.0.0   
+   > System.Composition                                         7.0.0   
+   > System.Composition.AttributedModel                         7.0.0   
+   > System.Composition.Convention                              7.0.0   
+   > System.Composition.Hosting                                 7.0.0   
+   > System.Composition.Runtime                                 7.0.0   
+   > System.Composition.TypedParts                              7.0.0   
+   > System.Configuration.ConfigurationManager                  6.0.1   
+   > System.Diagnostics.DiagnosticSource                        6.0.1   
+   > System.Drawing.Common                                      6.0.0   
+   > System.Formats.Asn1                                        9.0.11  
+   > System.IdentityModel.Tokens.Jwt                            6.35.0  
+   > System.IO.Pipelines                                        7.0.0   
+   > System.Memory                                              4.5.4   
+   > System.Memory.Data                                         1.0.2   
+   > System.Numerics.Vectors                                    4.5.0   
+   > System.Reflection.Metadata                                 7.0.0   
+   > System.Runtime                                             4.3.0   
+   > System.Runtime.Caching                                     6.0.0   
+   > System.Runtime.CompilerServices.Unsafe                     6.0.0   
+   > System.Security.AccessControl                              6.0.0   
+   > System.Security.Cryptography.Cng                           5.0.0   
+   > System.Security.Cryptography.ProtectedData                 6.0.0   
+   > System.Security.Permissions                                6.0.0   
+   > System.Security.Principal.Windows                          5.0.0   
+   > System.Text.Encoding                                       4.3.0   
+   > System.Text.Encoding.CodePages                             6.0.0   
+   > System.Text.Encodings.Web                                  6.0.0   
+   > System.Text.Json                                           9.0.11  
+   > System.Threading.Channels                                  7.0.0   
+   > System.Threading.Tasks.Extensions                          4.5.4   
+   > System.Windows.Extensions                                  6.0.0   
+   > xunit.abstractions                                         2.0.3   
+   > xunit.analyzers                                            1.18.0  
+   > xunit.assert                                               2.9.3   
+   > xunit.core                                                 2.9.3   
+   > xunit.extensibility.core                                   2.9.3   
+   > xunit.extensibility.execution                              2.9.3   
+
+Project 'Skins.Infrastructure' has the following package references
+   [net9.0]: 
+   Top-level Package                               Requested   Resolved
+   > BCrypt.Net-Next                               4.0.3       4.0.3   
+   > Microsoft.EntityFrameworkCore                 9.0.11      9.0.11  
+   > Microsoft.EntityFrameworkCore.Design          9.0.11      9.0.11  
+   > Microsoft.EntityFrameworkCore.Relational      9.0.11      9.0.11  
+   > Microsoft.EntityFrameworkCore.SqlServer       9.0.11      9.0.11  
+   > xunit                                         2.9.3       2.9.3   
+
+   Transitive Package                                           Resolved
+   > Azure.Core                                                 1.38.0  
+   > Azure.Identity                                             1.11.4  
+   > Humanizer.Core                                             2.14.1  
+   > Microsoft.Bcl.AsyncInterfaces                              7.0.0   
+   > Microsoft.Build.Framework                                  17.8.3  
+   > Microsoft.Build.Locator                                    1.7.8   
+   > Microsoft.CodeAnalysis.Analyzers                           3.3.4   
+   > Microsoft.CodeAnalysis.Common                              4.8.0   
+   > Microsoft.CodeAnalysis.CSharp                              4.8.0   
+   > Microsoft.CodeAnalysis.CSharp.Workspaces                   4.8.0   
+   > Microsoft.CodeAnalysis.Workspaces.Common                   4.8.0   
+   > Microsoft.CodeAnalysis.Workspaces.MSBuild                  4.8.0   
+   > Microsoft.CSharp                                           4.5.0   
+   > Microsoft.Data.SqlClient                                   5.1.6   
+   > Microsoft.Data.SqlClient.SNI.runtime                       5.1.1   
+   > Microsoft.EntityFrameworkCore.Abstractions                 9.0.11  
+   > Microsoft.EntityFrameworkCore.Analyzers                    9.0.11  
+   > Microsoft.Extensions.Caching.Abstractions                  9.0.11  
+   > Microsoft.Extensions.Caching.Memory                        9.0.11  
+   > Microsoft.Extensions.Configuration.Abstractions            9.0.11  
+   > Microsoft.Extensions.DependencyInjection                   9.0.11  
+   > Microsoft.Extensions.DependencyInjection.Abstractions      9.0.11  
+   > Microsoft.Extensions.DependencyModel                       9.0.11  
+   > Microsoft.Extensions.Logging                               9.0.11  
+   > Microsoft.Extensions.Logging.Abstractions                  9.0.11  
+   > Microsoft.Extensions.Options                               9.0.11  
+   > Microsoft.Extensions.Primitives                            9.0.11  
+   > Microsoft.Identity.Client                                  4.61.3  
+   > Microsoft.Identity.Client.Extensions.Msal                  4.61.3  
+   > Microsoft.IdentityModel.Abstractions                       6.35.0  
+   > Microsoft.IdentityModel.JsonWebTokens                      6.35.0  
+   > Microsoft.IdentityModel.Logging                            6.35.0  
+   > Microsoft.IdentityModel.Protocols                          6.35.0  
+   > Microsoft.IdentityModel.Protocols.OpenIdConnect            6.35.0  
+   > Microsoft.IdentityModel.Tokens                             6.35.0  
+   > Microsoft.NETCore.Platforms                                1.1.0   
+   > Microsoft.NETCore.Targets                                  1.1.0   
+   > Microsoft.SqlServer.Server                                 1.0.0   
+   > Microsoft.Win32.SystemEvents                               6.0.0   
+   > Mono.TextTemplating                                        3.0.0   
+   > System.ClientModel                                         1.0.0   
+   > System.CodeDom                                             6.0.0   
+   > System.Collections.Immutable                               7.0.0   
+   > System.Composition                                         7.0.0   
+   > System.Composition.AttributedModel                         7.0.0   
+   > System.Composition.Convention                              7.0.0   
+   > System.Composition.Hosting                                 7.0.0   
+   > System.Composition.Runtime                                 7.0.0   
+   > System.Composition.TypedParts                              7.0.0   
+   > System.Configuration.ConfigurationManager                  6.0.1   
+   > System.Diagnostics.DiagnosticSource                        6.0.1   
+   > System.Drawing.Common                                      6.0.0   
+   > System.Formats.Asn1                                        9.0.11  
+   > System.IdentityModel.Tokens.Jwt                            6.35.0  
+   > System.IO.Pipelines                                        7.0.0   
+   > System.Memory                                              4.5.4   
+   > System.Memory.Data                                         1.0.2   
+   > System.Numerics.Vectors                                    4.5.0   
+   > System.Reflection.Metadata                                 7.0.0   
+   > System.Runtime                                             4.3.0   
+   > System.Runtime.Caching                                     6.0.0   
+   > System.Runtime.CompilerServices.Unsafe                     6.0.0   
+   > System.Security.AccessControl                              6.0.0   
+   > System.Security.Cryptography.Cng                           5.0.0   
+   > System.Security.Cryptography.ProtectedData                 6.0.0   
+   > System.Security.Permissions                                6.0.0   
+   > System.Security.Principal.Windows                          5.0.0   
+   > System.Text.Encoding                                       4.3.0   
+   > System.Text.Encoding.CodePages                             6.0.0   
+   > System.Text.Encodings.Web                                  6.0.0   
+   > System.Text.Json                                           9.0.11  
+   > System.Threading.Channels                                  7.0.0   
+   > System.Threading.Tasks.Extensions                          4.5.4   
+   > System.Windows.Extensions                                  6.0.0   
+   > xunit.abstractions                                         2.0.3   
+   > xunit.analyzers                                            1.18.0  
+   > xunit.assert                                               2.9.3   
+   > xunit.core                                                 2.9.3   
+   > xunit.extensibility.core                                   2.9.3   
+   > xunit.extensibility.execution                              2.9.3   
+

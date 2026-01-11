@@ -1,18 +1,20 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using Skins.Infrastructure.Data.Models;
 
 namespace Skins.Infrastructure.Data;
 
 public class SkinsDbContext : DbContext
 {
-    private const string ConnectionString = "Server=100.121.15.19, 1433;Database=CS-Skins;User Id=sa;Password=VerySecure0!;TrustServerCertificate=True;Encrypt=True";
+    private const string ConnectionString = "Server=localhost, 1433;Database=CS-Skins;User Id=sa;Password=StrongPassword123!;TrustServerCertificate=True;Encrypt=True";
 
     public DbSet<Skin> Skins { get; set; } = null!;
     public DbSet<User> Users { get; set; } = null!;
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        base.OnConfiguring(optionsBuilder.UseSqlServer(ConnectionString));
+        optionsBuilder.UseSqlServer(ConnectionString)
+            .ConfigureWarnings(w => w.Ignore(RelationalEventId.PendingModelChangesWarning));
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

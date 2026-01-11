@@ -1,0 +1,6 @@
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Tests\obj\Debug\net9.0\Skins.Test.csproj.AssemblyReference.cache
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Tests\obj\Debug\net9.0\Skins.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Tests\obj\Debug\net9.0\Skins.Test.AssemblyInfoInputs.cache
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Tests\obj\Debug\net9.0\Skins.Test.AssemblyInfo.cs
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Tests\obj\Debug\net9.0\Skins.Test.csproj.CoreCompileInputs.cache
+C:\Users\sash3\source\repos\CS-Skins-Database\Skins.Tests\obj\Debug\net9.0\Skins.Test.sourcelink.json

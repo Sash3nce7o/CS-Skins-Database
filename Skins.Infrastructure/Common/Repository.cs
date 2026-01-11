@@ -32,13 +32,13 @@ public class Repository : IRepository
         return DbSet<T>().AsNoTracking();
     }
 
-    public void Delete<T>(int id) where T : class
+    public void Delete<T>(string id) where T : class
     {
         T entity = GetById<T>(id);
         DbSet<T>().Remove(entity);
     }
 
-    public T GetById<T>(int id) where T : class
+    public T GetById<T>(string id) where T : class
     {
         T? result = DbSet<T>().Find(id);
 

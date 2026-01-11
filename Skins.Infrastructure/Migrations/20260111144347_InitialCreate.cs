@@ -14,8 +14,7 @@ namespace Skins.Infrastructure.Migrations
                 name: "Users",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Username = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Email = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false)
                 },
@@ -28,14 +27,13 @@ namespace Skins.Infrastructure.Migrations
                 name: "Skins",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     Float = table.Column<float>(type: "real", nullable: false),
                     Quality = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Pattern = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     MaxFloat = table.Column<float>(type: "real", nullable: true),
-                    OwnerId = table.Column<int>(type: "int", nullable: false)
+                    OwnerId = table.Column<string>(type: "nvarchar(450)", nullable: false)
                 },
                 constraints: table =>
                 {
